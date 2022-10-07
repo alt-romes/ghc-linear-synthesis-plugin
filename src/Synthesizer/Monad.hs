@@ -301,7 +301,7 @@ fresh = do
           genName :: Int -> String
           genName i = if i < 0 then '-' : letters !! (-i) else letters !! i
 
-          someWords = ["moon", "earth", "water", "fire", "air"]
+          someWords = ["earth", "bottle", "hand", "beetle", "stick", "engine", "statue", "bow", "circle"]
 
 -----------------------------------------
 -- * Utilities

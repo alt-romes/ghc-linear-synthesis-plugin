@@ -16,14 +16,14 @@ data State b a = State (Ur b %1 -> (a, Ur b))
 -- f :: (a %1 -> b) %1 -> a %1 -> b
 -- f = _
 
--- return :: A %1 -> Maybe A
--- return = _
+return :: a %1 -> Maybe a
+return = _
 
--- empty :: Maybe A
--- empty = _
+empty :: Maybe a
+empty = _
 
--- map' :: (a %1 -> b) -> [a] %1 -> [b]
--- map' = _
+map' :: (a %1 -> b) -> [a] %1 -> [b]
+map' = _
 
 -- t :: Ur a
 -- t = _
@@ -65,8 +65,8 @@ data State b a = State (Ur b %1 -> (a, Ur b))
 --                                    (State b) -> b (Ur air))
 
 
-concat :: [[A]] %1 -> [A]
-concat = _
+-- concat :: [[A]] %1 -> [A]
+-- concat = _
 
 
 
