@@ -70,4 +70,7 @@ it's the only way of making `b`s.
 Compilation is possible with ghc-9.0 and ghc-9.2.
 We don't yet support ghc-9.4 because `ghc-source-gen` hasn't caught up with it.
 
+## Article
 
+For  the original prototype synthesizer over a custom Haskell-like language that
+has (for now) more features and for the paper describing it check out https://github.com/alt-romes/slfl
